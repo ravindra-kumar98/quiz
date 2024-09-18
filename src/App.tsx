@@ -1,7 +1,11 @@
 import "./App.css";
-
+import SignUp from "./containers/SignUpContainer";
 function App() {
-  return <></>;
+  return (
+    <>
+      <SignUp />
+    </>
+  );
 }
 
 export default App;
